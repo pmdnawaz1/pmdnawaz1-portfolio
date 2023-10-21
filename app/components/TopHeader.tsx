@@ -13,7 +13,7 @@ const TopHeader = () => {
   ];
   
   return (
-    <div className="mx-3 py-5 text-center">
+    <div className="mx-3 py-10 text-center">
       <div className="flex flex-wrap justify-between">
         <div className="bg-gradient-to-r from-fuchsia-600 to-violet-600 bg-clip-text text-transparent font-bold text-2xl">
           Full stack web developer

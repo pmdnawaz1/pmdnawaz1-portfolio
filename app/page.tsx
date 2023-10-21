@@ -5,21 +5,25 @@ import TopHeader from '../app/components/TopHeader';
 
 export default function Main() {
   return (
-    <div>
+    <div className='bg-fuscia-300'>
       <TopHeader />
-    <div style={{ display: 'grid', gridTemplateAreas: `
-      "b c c"
-      "b c c"
-      "b c c"
-    ` }}>
-      
-      <div style={{ gridArea: 'b' }}>
-        <Projects />
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateAreas: `
+            "b c c"
+            "b c c"
+            "b c c"
+          `,
+        }}
+      >
+        <div style={{ gridArea: 'b' }}>
+          <Projects />
+        </div>
+        <div style={{ gridArea: 'c' }}>
+          <Content />
+        </div>
       </div>
-      <div style={{ gridArea: 'c' }}>
-        <Content />
-      </div>
-    </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Hero = () => (
-  <section className="flex flex-col items-center justify-center py-20">
+  <section className="flex flex-col items-center justify-center py-5">
     <div className="w-full md:w-4/5 lg:w-3/5">
       <h1 className="text-4xl font-bold text-center">
         Welcome To <br />

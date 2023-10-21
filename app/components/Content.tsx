@@ -3,10 +3,9 @@ import Technologies from "./Technologies"
 import Hero from "./Hero"
 export default function Content() {
   return(
-    <div>
+    <div className="">
       <Hero/>
       <Technologies />
-
     </div>
   )
 }
