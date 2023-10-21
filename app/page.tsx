@@ -8,8 +8,9 @@ export default function Main() {
     <div>
       <TopHeader />
     <div style={{ display: 'grid', gridTemplateAreas: `
-      "b b c"
-      "b b c"
+      "b c c"
+      "b c c"
+      "b c c"
     ` }}>
       
       <div style={{ gridArea: 'b' }}>
