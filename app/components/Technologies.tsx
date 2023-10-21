@@ -7,7 +7,7 @@ const Technologies = () => (
     <div className="container mx-auto">
       <h2 className="text-3xl font-bold text-center">Technologies</h2>
       <p className="mt-4 text-center">
-        I've worked with many web development technologies as a freelancer! Here are some.
+        I&apos;ve worked with many web development technologies as a freelancer! Here are some.
       </p>
       <div className="grid grid-rows-2 gap-6 mt-10 sm:grid-cols-2 lg:grid-row-3">
         <div className="flex justify-center p-4 relative">
