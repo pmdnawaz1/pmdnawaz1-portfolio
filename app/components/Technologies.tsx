@@ -9,45 +9,81 @@ const Technologies = () => (
       <p className="mt-4 text-center">
         I&apos;ve worked with many web development technologies as a freelancer! Here are some.
       </p>
-      <div className="grid grid-rows-2 gap-6 mt-10 sm:grid-cols-2 lg:grid-row-3">
-        <div className="flex justify-center p-4 relative">
-          <div className="absolute -top-2 -right-2 -bottom-2 -left-2 bg-gradient-to-r from-purple-600 to-pink-600 rounded-md blur opacity-0 hover:opacity-100 transition duration-1000"></div>
-          <div className="bg-white border border-gray-300 rounded-md hover:bg-gray-100 flex relative z-10">
-            <DiReact className="text-8xl py-0 text-blue-500" />
-            <div className="ml-4">
-              <h3 className="text-lg font-semibold">Front-End</h3>
-              <p className="mt-2 text-sm">
-                React, Next 13, Angular, Nuxt, Tailwind CSS, Styled components and more
-              </p>
+      <div className="grid grid-rows-2 gap-5 mt-10 sm:grid-cols-2 lg:grid-row-3">
+        <div className=" relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-red-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+          <div className=" bg-white border border-gray-300 rounded-md hover:bg-gray-100 hover:rounded-md flex flex-col items-center relative z-10">
+            <div className="flex justify-center items-center">
+              <DiReact className="text-4xl py-0 text-blue-500" />
+              <h3 className="text-lg font-semibold ml-2">Frontend</h3>
             </div>
+            <ul className="m-4 text-sm">
+              <li className="bg-red-500 text-white px-2 py-1 rounded mb-1">React</li>
+              <li className="bg-blue-500 text-white px-2 py-1 rounded mb-1">Next 13,</li>
+              <li className="bg-green-500 text-white px-2 py-1 rounded mb-1">Angular</li>
+              <li className="bg-yellow-500 text-white px-2 py-1 rounded mb-1">Nuxt</li>
+              <li className="bg-purple-500 text-white px-2 py-1 rounded mb-1">Tailwind CSS</li>
+              <li className="bg-pink-500 text-white px-2 py-1 rounded mb-1">Styled components</li>
+              <li className="bg-pink-500 text-white px-2 py-1 rounded mb-1">Html and CSS</li>
+            </ul>
           </div>
         </div>
-
-        <div className="flex items-center justify-center p-4 bg-white border border-gray-300 rounded-md hover:">
-          <DiFirebase className="text-8xl text-orange-500" />
-          <div className="ml-4">
-            <h3 className="text-lg font-semibold">Back-End</h3>
-            <p className="mt-2 text-sm">
-              Node.js, Express.js, Azure serverless functions, MongoDB, Mongoose, CosmosDB, SQL, Java, and PHP
-            </p>
+        <div className=" relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-red-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+          <div className=" bg-white border border-gray-300 rounded-md hover:bg-gray-100 hover:rounded-md flex flex-col items-center relative z-10">
+            <div className="flex items-center">
+              <DiFirebase className="text-4xl py-0 text-blue-500" />
+              <h3 className="text-lg font-semibold ml-2">Back-End</h3>
+            </div>
+            <ul className="m-4 text-sm">
+              <li className="bg-red-500 text-white px-2 py-1 rounded mb-1">Node.js</li>
+              <li className="bg-blue-500 text-white px-2 py-1 rounded mb-1">Express.js</li>
+              <li className="bg-green-500 text-white px-2 py-1 rounded mb-1">Azure serverless functions</li>
+              <li className="bg-yellow-500 text-white px-2 py-1 rounded mb-1">MongoDB</li>
+              <li className="bg-purple-500 text-white px-2 py-1 rounded mb-1">Mongoose</li>
+              <li className="bg-pink-500 text-white px-2 py-1 rounded mb-1">CosmosDB</li>
+              <li className="bg-indigo-500 text-white px-2 py-1 rounded mb-1">SQL</li>
+              <li className="bg-orange-500 text-white px-2 py-1 rounded mb-1">Java</li>
+              <li className="bg-teal-500 text-white px-2 py-1 rounded">PHP</li>
+            </ul>
           </div>
         </div>
-        <div className="flex items-center justify-center p-4 bg-white border border-gray-300 rounded-md hover:bg-gray-100">
-          <DiZend className="text-8xl text-purple-500" />
-          <div className="ml-4">
-            <h3 className="text-lg font-semibold">Languages</h3>
-            <p className="mt-2 text-sm">
-              Java, JavaScript, C, fundamentals in Python, OOPS, and DSA
-            </p>
+        <div className=" relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-red-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+          <div className=" bg-white border border-gray-300 rounded-md hover:bg-gray-100 hover:rounded-md flex flex-col items-center relative z-10">
+            <div className="flex justify-center items-center">
+              <GrDeploy className="text-2xl py-0 text-blue-500" />
+              <h3 className="text-lg font-semibold ml-2">Deployment</h3>
+            </div>
+            <ul className="m-4 text-sm">
+              <li className="bg-red-500 text-white px-2 py-1 rounded mb-1">AWS</li>
+              <li className="bg-blue-500 text-white px-2 py-1 rounded mb-1">Azure</li>
+              <li className="bg-green-500 text-white px-2 py-1 rounded mb-1">cPanel</li>
+              <li className="bg-yellow-500 text-white px-2 py-1 rounded mb-1">Hostinger</li>
+              <li className="bg-purple-500 text-white px-2 py-1 rounded mb-1">Render</li>
+              <li className="bg-pink-500 text-white px-2 py-1 rounded mb-1">Heroku</li>
+              <li className="bg-indigo-500 text-white px-2 py-1 rounded mb-1">Vercel</li>
+              <li className="bg-orange-500 text-white px-2 py-1 rounded mb-1">Netlify</li>
+              <li className="bg-teal-500 text-white px-2 py-1 rounded">PHP</li>
+            </ul>
           </div>
         </div>
-        <div className="flex items-center justify-center p-4 bg-white border border-gray-300 rounded-md hover:bg-gray-100">
-          <GrDeploy className="text-5xl text-orange-500" />
-          <div className="ml-4">
-            <h3 className="text-lg font-semibold">Deployment</h3>
-            <p className="mt-2 text-sm">
-              AWS, Azure, cPanel, Hostinger, Render, Heroku, Vercel, and Netlify
-            </p>
+        <div className=" relative">
+          <div className="absolute inset-0 bg-gradient-to-r from-yellow-500 to-red-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+          <div className=" bg-white border border-gray-300 rounded-md hover:bg-gray-100 hover:rounded-md flex flex-col items-center relative z-10">
+            <div className="flex justify-center items-center">
+              <DiZend className="text-4xl py-0 text-blue-500" />
+              <h3 className="text-lg font-semibold ml-2">Languages and concepts</h3>
+            </div>
+            <ul className="m-4 text-sm">
+              <li className="bg-red-500 text-white px-2 py-1 rounded mb-1">JavaScript</li>
+              <li className="bg-teal-500 text-white px-2 py-1 rounded">TypeScript</li>
+              <li className="bg-blue-500 text-white px-2 py-1 rounded mb-1">Express.js</li>
+              <li className="bg-green-500 text-white px-2 py-1 rounded mb-1"> C fundamentals</li>
+              <li className="bg-yellow-500 text-white px-2 py-1 rounded mb-1">Python</li>
+              <li className="bg-purple-500 text-white px-2 py-1 rounded mb-1">Oops</li>
+              <li className="bg-pink-500 text-white px-2 py-1 rounded mb-1">Dsa</li>
+            </ul>
           </div>
         </div>
       </div>

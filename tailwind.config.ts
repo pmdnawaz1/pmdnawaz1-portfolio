@@ -13,7 +13,13 @@ module.exports = {
 				'meteor-effect': 'meteor 5s linear infinite',
 			},
 			backgroundColor: {
-				'custom-gradient': 'linear-gradient(to bottom right, #EE9CA7, #FFDDE1)',
+				'custom-green': '#38EF7D',
+				'custom-blue': '#11998E',
+			},
+			backgroundImage: {
+				'custom-gradient': 'linear-gradient(to bottom right, #FFECD2, #FCB69F)',
+				'custom-card-gradient':
+					'linear-gradient(to bottom right, #0f2027, #203a43, #2c5364)',
 			},
 			keyframes: {
 				meteor: {

@@ -5,7 +5,7 @@ import TopHeader from '../app/components/TopHeader';
 
 export default function Main() {
   return (
-    <div className='bg-fuscia-300'>
+    <div>
       <TopHeader />
       <div
         style={{
@@ -16,6 +16,7 @@ export default function Main() {
             "b c c"
           `,
         }}
+        className="focus:shadow-lg focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
       >
         <div style={{ gridArea: 'b' }}>
           <Projects />

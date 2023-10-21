@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@layer base {
+  html {
+    font-family: "Proxima Nova", system-ui, sans-serif;
+  }
+}
+body{
+  background-image: linear-gradient(to bottom right, #D6A4A4, #DAE2F8);
+}
