@@ -8,7 +8,7 @@ const Hero = () => (
         My Portfolio
       </h1>
       <p className="mt-4 text-center">
-        Hi! I&apos;m Sarfaraz Nawaz. This is my portfolio. I'm a full stack developer specialized in MERN stack. I built this portfolio using React.js and Next.js.
+        Hi! I&apos;m Sarfaraz Nawaz. This is my portfolio. I&apos;m a full stack developer specialized in MERN stack. I built this portfolio using React.js and Next.js.
       </p>
     </div>
   </section>
