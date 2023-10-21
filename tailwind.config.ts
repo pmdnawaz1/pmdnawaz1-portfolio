@@ -25,9 +25,6 @@ module.exports = {
 					},
 				},
 			},
-			backgroundColor: {
-				'custom-gradient': 'linear-gradient(to bottom right, #EE9CA7, #FFDDE1)',
-			},
 		},
 	},
 	plugins: [],
