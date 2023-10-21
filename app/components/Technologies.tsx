@@ -17,7 +17,7 @@ const Technologies = () => (
             <div className="ml-4">
               <h3 className="text-lg font-semibold">Front-End</h3>
               <p className="mt-2 text-sm">
-                React, Next 13, Angular, Nuxt, Tailwind CSS, Styled components
+                React, Next 13, Angular, Nuxt, Tailwind CSS, Styled components and more
               </p>
             </div>
           </div>
