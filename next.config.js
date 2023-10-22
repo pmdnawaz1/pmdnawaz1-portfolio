@@ -1,4 +1,20 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {}
+module.exports = {
+	i18n: {
+		locales: ['en-US', 'fr', 'nl-NL'],
 
-module.exports = nextConfig
+		defaultLocale: 'en-US',
+
+		domains: [
+			{
+				domain: 'pmdnawaz.vercel.app/',
+				defaultLocale: 'en-US',
+			},
+			{
+				domain: 'example.fr',
+				defaultLocale: 'fr',
+
+				http: true,
+			},
+		],
+	},
+};
