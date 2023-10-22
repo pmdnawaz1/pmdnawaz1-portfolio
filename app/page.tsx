@@ -9,19 +9,15 @@ export default function Main() {
       <TopHeader />
       <div
         style={{
-          display: 'grid',
-          gridTemplateAreas: `
-            "b c c"
-            "b c c"
-            "b c c"
-          `,
+          display: 'flex',
+          flexDirection: 'column',
         }}
         className="focus:shadow-lg focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
       >
-        <div style={{ gridArea: 'b' }}>
+        <div>
           <Projects />
         </div>
-        <div style={{ gridArea: 'c' }}>
+        <div>
           <Content />
         </div>
       </div>
